@@ -21,7 +21,7 @@
   background: var(--bg);
 }
 
-/* 🌙 Dark mode */
+/*  Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -38,7 +38,7 @@
   }
 }
 
-/* 🌈 Background */
+/* Background */
 body {
   margin: 0;
   background: linear-gradient(135deg, #eef2ff, #f8fafc);
@@ -54,12 +54,12 @@ body {
   box-sizing: border-box;
 }
 
-/* 📦 Container */
+/*  Container */
 .container {
   max-width: 1200px;
 }
 
-/* 🧊 Cards (Glass effect) */
+/*  Cards (Glass effect) */
 .card {
   border-radius: 16px;
   border: none;
@@ -73,19 +73,19 @@ body {
   transform: translateY(-4px);
 }
 
-/* 🧾 Table */
+/*  Table */
 .table {
   background: white;
   border-radius: 12px;
   overflow: hidden;
 }
 
-/* 🔍 Inputs */
+/*  Inputs */
 input.form-control {
   border-radius: 10px;
 }
 
-/* 🔘 Buttons */
+/*  Buttons */
 .btn-primary {
   border-radius: 10px;
   padding: 8px 16px;
@@ -97,7 +97,7 @@ input.form-control {
   background: #4f46e5;
 }
 
-/* 📝 Headings */
+/* Headings */
 h2 {
   font-family: var(--heading);
   font-weight: 600;
@@ -112,7 +112,7 @@ h3 {
   font-weight: 700;
 }
 
-/* 💻 Code (optional keep) */
+/* Code  */
 code {
   font-family: var(--mono);
   font-size: 14px;
@@ -134,7 +134,7 @@ code {
 
 
 
-/* 🌙 DARK MODE MANUAL */
+/* DARK MODE MANUAL */
 .dark {
   --text: #9ca3af;
   --text-h: #f3f4f6;
@@ -168,9 +168,9 @@ code {
 }
 
 
-/* 🌙 Theme Toggle Switch */
+/* Theme Toggle Switch */
 .theme-toggle {
-  width: 60px;
+  width: 53px;
   height: 30px;
   background: #e5e7eb; /* light grey */
   border-radius: 50px;
@@ -188,12 +188,11 @@ code {
   background: #ffffff;
   border-radius: 50%;
   top: 3px;
-  left: 4px;
   transition: transform 0.3s ease, background 0.3s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-/* 🌙 Active (dark mode) */
+/* Active (dark mode) */
 .dark .theme-toggle {
   background: #8b5cf6; /* purple */
 }
@@ -205,17 +204,17 @@ code {
 }
 
 
-/* 🔘 Role Switcher Circle  */
+/* Role Switcher Circle  */
 .role-circle {
-  width: 60px;        
-  height: 60px;       
-  border-radius: 50%;
+  width: 30px;        
+  height: 30px;       
+  border-radius: 10%;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  font-size: 24px;    /* bigger icon */
+  font-size: 24px;    
 
   cursor: pointer;
   transition: all 0.3s ease;
@@ -242,7 +241,7 @@ code {
 
 
 
-/* 🌙 Fix text visibility in dark mode */
+/* Fix text visibility in dark mode */
 
 /* Headings */
 .dark h1,
